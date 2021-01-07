@@ -99,11 +99,11 @@ def inner_four(input_list):
     For example:
 
     >>> inner_four([0, 3, 6, 9, 12, 15, 18, 21, 24, 27])
-    [6, 9, 12, 15]
+    [6, 9, 12, 15]""" 
 
-    """
+    #return slice of input list from index 2 to index 6
 
-    return []
+    return input_list[2:6]
 
 
 def inner_four_end(input_list):
