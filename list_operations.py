@@ -49,8 +49,8 @@ def top(input_list):
     ['Jan', 'Feb']
 
     """
-
-    return []
+    #return slice of input list from input list
+    return input_list[:-1]
 
 
 def first_three(input_list):
