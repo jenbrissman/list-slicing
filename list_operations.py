@@ -172,7 +172,10 @@ def replace_middle(input_list):
 
     """
 
-    pass
+    #reassign the slice of input list from index 2 to index -2 to the list containing 42 and 37
+
+    input_list[2:-2] = [42, 37]
+
 
 
 def delete_third_and_seventh(input_list):
