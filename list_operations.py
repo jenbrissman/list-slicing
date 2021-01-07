@@ -188,9 +188,11 @@ def delete_third_and_seventh(input_list):
     >>> notes == ['Do', 'Re', 'Fa', 'So', 'La', 'Do']
     True
 
-    """
 
-    pass
+    """
+    # Remove element at index 2 and at index 6
+    del input_list[2]
+    del input_list[5]
 
 
 def delete_middle(input_list):
