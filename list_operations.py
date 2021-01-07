@@ -36,8 +36,8 @@ def last(input_list):
     'Mar'
 
     """
-
-    return []
+    # return the input_list at [-1]
+    return input_list[-1]
 
 
 def top(input_list):
