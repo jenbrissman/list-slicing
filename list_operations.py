@@ -151,8 +151,9 @@ def replace_third_and_last(input_list):
     True
 
     """
-
-    pass
+    # replace at index 2 and at index -1
+    input_list[2] = 37
+    input_list[-1] = 37
 
 
 def replace_middle(input_list):
