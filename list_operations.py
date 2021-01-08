@@ -208,8 +208,10 @@ def delete_middle(input_list):
     True
 
     """
+    # delete elements from index 2 to index -2
 
-    pass
+    del input_list[2:-2]
+
 
 
 # This is the part were we actually run the doctests.
